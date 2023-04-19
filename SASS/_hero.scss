@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    .deeps-cafe{
+        margin: 80px auto;
+        display:flex;
+        align-items: center;
+         flex-direction: column;
+    }
+    .deep-cafe-image img{
+        height: 40px;
+        width: 2.5rem;
+
+    }
+    .deeps-cafe p{
+        letter-spacing: 0.4rem;
+    }
+    .dep-logo img{
+        height: 2rem;
+        width: 6rem;
+    }
+    .section{
+        width: 100%;
+        background-color:rgba(255,185,0,255);
+        border-top-right-radius: 22px;
+        border-top-left-radius: 22px;
+
+        .text{
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 1.3rem;
+            @media (max-width:376px) {
+                text-align: left;
+            }
+        }
+        .btn{
+            display: flex;
+            justify-content: space-evenly;
+            max-width:300px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
