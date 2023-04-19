@@ -1,20 +1,32 @@
 .container {
     width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+
     .deeps-cafe {
-        // margin: 5rem auto;
         display: flex;
+        justify-content: center;
         align-items: center;
-        flex-direction: column;
+        height:500px;
+        
+    }
+    .deeps-cafe-content{
+        text-align: center;
+        
     }
     .deep-cafe-image img {
-        height: 77px;
+        // height: 70px;
         width: 4.5rem;
     }
     .deeps-cafe p {
         letter-spacing: 0.4rem;
     }
     .dep-logo img {
-        height: 4rem;
+        // height: 3rem;-
         width: 8rem;
     }
     .section {
